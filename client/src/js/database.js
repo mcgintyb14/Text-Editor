@@ -21,7 +21,7 @@ export const putDb = async (content) => {
   const request = store.put({ id: 1, value: content});
   const results = await request;
 
-  console.log('- data has been saved to the database!', result.value)
+  console.log('- data has been saved to the database!', results.value)
   console.error('putDb not implemented')
 };
 
@@ -34,7 +34,7 @@ export const getDb = async () => {
   const request = store.get(1);
   const results = await request;
 
-  results ? console.log('- data has been successfully retrieved from the database', result.value) :
+  results ? console.log('- data has been successfully retrieved from the database', results.value) :
   console.log('- data was not found in the database');
   return results?.value
 };
