@@ -22,7 +22,6 @@ export const putDb = async (content) => {
   const results = await request;
 
   console.log('- data has been saved to the database!', results.value)
-  console.error('putDb not implemented')
 };
 
 // TODO: Add logic for a method that gets all the content from the database
