@@ -19,15 +19,14 @@ To install this applicaiton, follow the below instructions:
 4. Use the command `code .` to open VS code with the downloaded files
 
 ## Usage
-To use this applicaiton (after following installation instructions above), follow the below instructions:
+To use this applicaiton (after following installation instructions above), simply navigate to the deployed link in this README and follow the below instructions:
 
-1. Right-click on the `app.js` file and select `open integrated terminal`, then drag the terminal to the top of the screen
-2. Ensure you have the right node modules installed by entering `npm install` in the VS Code Terminal
-3. Enter the command `npm start` to run the program
-4. Answer questions in the prompt based on what you would like to do
+1. Once the page has loaded, you can choose to either run the applicaiton in your browser OR hit `install` to install the application to your computer and use it locally
+2. Once one of the above options have been chosen, you are now free to use the text editor, and all of the edits to the file will automatically be cached either in your browser in the `indexedDb` database, or locally on your machine
 
-Alternatively, see a walkthrough below: <br>
-<a href="https://drive.google.com/file/d/1-_mvTfguV2DZ-_EU6XsCUqBXkf5JUHGr/view" target="_blank" rel="noopener noreferrer">Walkthrough Video</a>
+## Deployed Link
+
+https://text-editor-application-a6p1.onrender.com/
 
 ## Credits
 N/A
